@@ -1,0 +1,21 @@
+kind: Deployment
+apiVersion: extensions/v1beta1
+metadata:
+  name: sample-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: sample
+    spec:
+      containers:
+        - name: sample
+          image: asia.gcr.io/learn-kubernetes-144122/test-kube-firebase
+          resources:
+            limits:
+              cpu: 50m
+              memory: .1Gi
+            requests:
+              cpu: 50m
+              memory: .1Gi
