@@ -1,0 +1,23 @@
+{
+  "name": "test-kube-firebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandanand84/test-kube-firebase.git"
+  },
+  "author": "Anand Aravindan <anand.anand84@gmail.com> (traderslab.in)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anandanand84/test-kube-firebase/issues"
+  },
+  "homepage": "https://github.com/anandanand84/test-kube-firebase#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "firebase": "^3.5.3"
+  }
+}

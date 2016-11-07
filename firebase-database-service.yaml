@@ -1,0 +1,12 @@
+kind : Service
+apiVersion: v1
+metadata :
+ name : firebase-database-service
+ labels :
+   app : firebase-database-service
+ spec:
+   type : ExternalName
+   externalName : screener-dashboard.firebaseio.com
+   ports:
+     - port : 443
+       targetPort: 443
