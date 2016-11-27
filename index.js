@@ -6,7 +6,7 @@ var configJSON      = require('./config.json');
 
 var config = {
     apiKey: configJSON.apiKey,
-    databaseURL: "https://firebase-database-service",
+    databaseURL: "https://screener-dashboard.firebaseio.com",
 };
 
 var dashboard   = firebase.initializeApp(config, 'Dashboard');

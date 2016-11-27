@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: sample
-          image: asia.gcr.io/learn-kubernetes-144122/test-kube-firebase
+          image:asia.gcr.io/tlab-screener/test-kube-firebase
           resources:
             limits:
               cpu: 50m

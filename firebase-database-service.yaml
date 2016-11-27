@@ -2,7 +2,7 @@
 kind : Service
 apiVersion: v1
 metadata :
- name : firebase-database-service
+ name : screener-dashboard.firebaseio.com
 spec:
  type : ExternalName
  externalName : screener-dashboard.firebaseio.com
